@@ -1,0 +1,404 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 375px;
+ 
+}
+
+main {
+  margin: 20% 8% 2%;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font-weight: 500;
+   font-size: 6.5vw;
+   margin: 20% 0 7%;
+}
+
+h3 {
+  font-weight: 450;
+   font-size: 6vw;
+   margin: 5% 0 7%;
+}
+
+h4 {
+  color: rgba(0, 0, 0, 0.509);
+  margin-bottom: 5%;
+  font-size: 4vw;
+}
+
+p {
+  line-height: 23px;
+}
+
+hr {
+  margin: 6% 0 12%;
+  color: rgba(255, 255, 255, 0.132);
+  border: 0;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.084);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 375px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 5% 10%;
+  background-color: white;
+  letter-spacing: 4px;
+  font-size: 4.5vw;
+  z-index: 1; 
+  box-shadow: 0 0 10px #888888; 
+  color: black;  
+}
+
+.right a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  text-align: right;
+
+}
+
+.left {
+  float: left; 
+}
+
+ .right {
+   float: right;  
+}
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrap {
+  position: relative;
+}
+
+.wrap_architect {
+  position: relative;
+  margin-top: 10%;
+
+}
+
+.overlay_BR {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.BR_nav, .BR_head {
+  font-family: Verdana, sans-serif;
+  font-weight: 900;
+}
+
+.BR_head {
+  background-color: rgba(0, 0, 0, 0.687);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.81);
+  font-size: 9.5vw;
+  padding: 3vw 6vw; 
+  display: inline;
+}
+
+.BR_Architect {
+  color: white;
+  float: right;
+  font-size: 6vw;
+}
+
+.overlay {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 4.5vw;
+  padding: 3vw 5vw;
+}
+
+.img_house {
+  padding-bottom: 5%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.person {
+  margin: 10% 0 0;
+}
+
+.person a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.064);
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0 10px ;
+}
+
+.person img {
+  filter: grayscale(80%);
+}
+
+input {
+  display: block;
+  border: 1px solid #00000041;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 10px 13px;
+  font-size: 15px;
+  }
+
+button {
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 9px 15px;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  }
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 30px;
+}
+
+
+@media (max-width: 649px) {
+  .right {
+    display: none;
+  }
+
+  .BR_Architect {
+    display: none;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 959px) {
+  nav {
+    font-size: 2vw;
+    height: 4%;
+    padding: 20px 4vw 4vw;
+  }
+
+  .wrap_architect {
+    position: relative;
+    margin-top: 4%;
+  }
+
+  .wrap {
+    width: 45%;
+    margin: 0 10px;
+  }
+
+  .overlay {
+   padding: 2vw 2vw;
+  }
+
+  .BR_head {
+    font-size: 5vw;
+    padding: 10px 20px;
+    margin-right: 3.5vw; 
+  }
+
+  h2 {
+    font-size: 4vw;
+    margin-top: 8vw;
+  }
+
+  h3 {
+    font-size: 4vw;
+  }
+
+  h4 {
+    font-size: 3vw;
+  }
+
+  h5 {
+    font-size: 2.5vw;
+  }
+
+  main {
+    margin: 10% 5% 2%;
+  }
+
+  .person {
+    width: 45%;
+    margin: 20px 10px;
+  }
+
+  hr {
+    margin-bottom: 5vw;
+  }
+
+  button {
+    width: 30%;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1279px) {
+  nav {
+    font-size: 1.5vw;
+    height: 3%;
+    padding: 2vw 4vw 3vw;
+  }
+
+  .wrap_architect {
+    position: relative;
+    margin-top: 3%;
+  }
+
+  .wrap {
+    width: 45%;
+    margin: 0 10px;
+  }
+
+  .overlay {
+   padding: 1.5vw 1.5vw;
+  }
+
+  .BR_head {
+    font-size: 3vw;
+    padding: 10px 20px;
+    margin-right: 2.5vw; 
+  }
+  .BR_Architect {
+    font-size: 3vw;
+  }
+
+  h2 {
+    font-size: 3vw;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+  }
+
+  h3 {
+    font-size: 3vw;
+  }
+
+  h4 {
+    font-size: 2vw;
+  }
+
+  h5 {
+    font-size: 2vw;
+  }
+
+  main {
+    margin: 10% 5% 2%;
+  }
+
+  .person {
+    width: 45%;
+    margin: 20px 10px;
+  }
+
+  hr {
+    margin-bottom: 3.5vw;
+  }
+
+  button {
+    width: 20%;
+  }
+}
+
+@media (min-width: 1280px) {
+  body {
+    max-width: 1280px;
+  }
+
+  nav {
+    font-size: 20px;
+    height: 4%;
+    padding: 30px 20px 40px;
+    right: 0;
+   
+  }
+
+  .wrap_architect {
+    position: relative;
+    margin-top: 4%;
+
+  }
+  .wrap {
+    width: 23%;
+    margin: 0 8px;
+  }
+
+  .overlay {
+   padding: 7px 15px;
+  }
+
+  .BR_head {
+    font-size: 40px;
+    padding: 5px 15px;
+    margin-right: 20px; 
+  }
+
+  .BR_Architect {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  main {
+    margin: 20px 40px 10px;
+    max-width: 1280px;
+  }
+  .person {
+    width: 23%;
+    margin: 15px 10px;
+  }
+  hr {
+    margin: 20px 0 40px;
+  }
+
+  button {
+    width: 160px;
+  }
+}

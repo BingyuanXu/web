@@ -1,0 +1,44 @@
+
+body {background-image: url(background.png);
+      margin: 0;
+      font-family: 'Sriracha', cursive;
+}
+
+h2 {background-color: #f0a733;
+    text-align: center;
+    margin: 0em;
+    color: #66200d;
+    padding: 18px;
+}
+
+.p1,.p2,.p3 {background-color: #f0a733;
+    color: #66200d;
+    width: 40%;
+    border: 1px solid #66200d;
+}
+
+.fa-camera {
+
+font-size: 50px;
+
+}
+
+
+.p1 {padding: 10px;
+    margin-top: 10px;
+}
+
+.p2 {margin: 30px auto 30px 25%;
+    padding: 10px;
+    text-align: center; 
+    overflow: auto;   
+}
+
+.p3 {padding: 10px 10px 110px 10px;
+    margin-left: auto ;
+    margin-bottom: 20px;
+}
+    
+
+
+

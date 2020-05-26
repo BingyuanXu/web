@@ -1,0 +1,48 @@
+* {
+  margin: 0 auto auto;
+  box-sizing: border-box;
+}
+
+main {
+  width: 318px;
+  background-color: aquamarine;
+  border: 2px solid black;
+  padding: 7px;
+  margin: auto;
+}
+
+.head_1 {
+  font-family: 'Karla', sans-serif;
+  margin-bottom: -10px;
+}
+  
+.wrap {
+  position: relative;
+  margin: 30px auto 10px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-family: 'Lacquer', sans-serif;
+  font-size: 50px;
+  color: red;
+}
+
+.content {
+  font-family: 'Karla', sans-serif;
+  padding: 20px 0 30px;
+  margin: 15px 0;
+  border: 1px solid rgb(0, 109, 252);
+  width: 300px; 
+}
+
+p, ul {
+  padding: 0;
+  margin: 10px;
+}
+
+.habit {
+  list-style: none; 
+}

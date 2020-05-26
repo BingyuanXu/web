@@ -1,0 +1,94 @@
+{
+  "_from": "zl-fetch",
+  "_id": "zl-fetch@3.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-mUbnXQb+dKI4hIbhdzPYLFAqaWLQgkZc83NN05OcenPYKmAosBK4oL32g7aSiSBeIZw/eDSdnZWbzYcV9tUPjQ==",
+  "_location": "/zl-fetch",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "zl-fetch",
+    "name": "zl-fetch",
+    "escapedName": "zl-fetch",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/zl-fetch/-/zl-fetch-3.2.2.tgz",
+  "_shasum": "234cdd6ddb6badbc496e0ff7872a2b6fd60a267f",
+  "_spec": "zl-fetch",
+  "_where": "/Users/bingyuanxu",
+  "author": {
+    "name": "Zell Liew",
+    "email": "zellwk@gmail.com"
+  },
+  "browser": "dist/index-iife.js",
+  "bugs": {
+    "url": "https://github.com/zellwk/zl-fetch/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@babel/runtime": "^7.8.4",
+    "btoa": "^1.2.1",
+    "cross-fetch": "^3.0.4"
+  },
+  "deprecated": false,
+  "description": "A library that makes the Fetch API a breeze",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@types/jest": "^25.1.3",
+    "babel-jest": "^25.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "jest": "^25.1.0",
+    "jest-extended": "^0.11.5",
+    "np": "^6.1.0",
+    "portastic": "^1.0.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^1.31.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-terser": "^5.2.0",
+    "standard": "^14.3.1",
+    "supertest": "^4.0.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/zellwk/zl-fetch#readme",
+  "keywords": [
+    "fetch",
+    "javascript",
+    "browser",
+    "nodejs",
+    "ajax"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "name": "zl-fetch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zellwk/zl-fetch.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm run test && npm run build",
+    "release": "np --no-publish && npm publish",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "version": "3.2.2"
+}

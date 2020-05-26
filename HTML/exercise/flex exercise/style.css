@@ -1,0 +1,43 @@
+.box {
+  display: flex;
+  background-color: black;
+
+  width: 300px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.box  div {
+  background-color: aqua;
+  width: 50px;
+  height:40px;
+  border: 2px solid red;
+  text-align: center;
+  margin: 5px;
+}
+
+.f {
+  order: 0;
+  flex-grow: 0;
+}
+
+.c {
+  order: 0;
+}
+
+.a {
+  flex-grow: 3;
+}
+
+.j {
+
+
+ flex-grow: 1;
+}
+
+.h {
+
+  flex-basis: 50px; 
+}
+
+

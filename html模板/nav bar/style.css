@@ -1,0 +1,25 @@
+
+
+.qqq {
+  border: 1px solid red;
+  width: 20px;
+  float: left;
+}
+.abc{
+  border: 1px solid red;
+  width: 50px;
+  float: right;
+}
+.www  {
+  border: 1px solid red;
+  width: 40px;
+  margin: 50px;
+
+
+}
+
+.container {
+  width: 40%;
+  height: 100px;
+}
+
